@@ -1,9 +1,9 @@
 url: https://tbroder14.github.io
 #dev
-baseurl: /sarah-website 
+# baseurl: /sarah-website 
 
 #prod
-# baseurl: / 
+baseurl: / 
 
 # Site settings
 title: SARAH
