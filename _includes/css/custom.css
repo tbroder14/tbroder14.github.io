@@ -1,3 +1,8 @@
+/* Fix for white bar on mobile */
+.container {
+    overflow-x: hidden;
+}
+
 .split-section {
     display: flex;
 }
