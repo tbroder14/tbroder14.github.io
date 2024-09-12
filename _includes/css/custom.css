@@ -72,6 +72,11 @@
     margin: 15px 0;
 }
 
+.img-dimensions {
+    width: 600px;
+    height: 400px 
+}
+
 @media(max-width: 767px) {
     .split-section {
         flex-direction: column;
@@ -83,5 +88,10 @@
 
     .sm-order-2 {
         order: 2;
+    }
+
+    .img-dimensions {
+        width: 100%;
+        height: auto 
     }
 }
