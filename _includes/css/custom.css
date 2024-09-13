@@ -3,6 +3,10 @@
     display: flex;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .fifty {
     width: 50%;
 }
@@ -162,6 +166,60 @@ h1 {
     height: 400px 
 }
 
+
+.content-section {
+    padding: 120px 20px;
+    background-color: #935ea6;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.column-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 300px;
+    margin: 0 auto 20px;
+}
+
+.column-image.img-big {
+    max-width: 350px;
+}
+
+.column-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.column-description {
+    font-size: 1em;
+    color: #333;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 0 30px;
+}
+
+section h2.section-heading {
+    max-width: 850px; 
+    margin: auto;
+}
+
 @media(max-width: 1920px) {
     .hero {
         height: 700px;
@@ -189,5 +247,106 @@ h1 {
 
     .hero {
         height: 500px;
+    }
+}
+
+@media(max-width: 550px) {
+    .bg-overlay {
+        display: none;
+    }
+
+    .sm-flex-column {
+        flex-direction: column;
+    }
+
+    .hero .img-container {
+        height: 500px;
+        width: 100%;
+    }
+
+    .hero h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 28px;
+    }
+
+    .hero .text-container {
+        width: 100%;
+    }
+
+    .hero .inner {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero .floating-logo {
+        max-width: 200px;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -150px;
+    }
+
+    .hero {
+        margin-top: 80px;
+    }
+
+    .hero .hero-title {
+        top: 30%;
+    }
+
+    .hero .buttons-container {
+        text-align: center;
+    }
+
+    .navbar-header {
+        height: 80px;
+    }
+
+    #services {
+        margin-top: 250px;
+    }
+
+    .content-section {
+        padding: 60px 15px;
+    }
+
+    .content-section .columns {
+        flex-direction: column;
+    }
+
+    .content-section .column {
+        margin-bottom: 40px;
+    }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    section h2.section-heading {
+        font-size:28px;
+        margin-bottom: 15px;
+    }
+
+    .sm-hundred {
+        width: 100%;
+    }
+
+    .sm-order-1 {
+        order: 1;
+    }
+
+    .sm-order-2 {
+        order: 2;
+    }
+
+    .faq {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .faq-button {
+        text-align: center;
     }
 }
