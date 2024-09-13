@@ -1,6 +1,92 @@
 /* Fix for white bar on mobile */
+.flex {
+    display: flex;
+}
+
+.fifty {
+    width: 50%;
+}
+
 .container {
     overflow-x: hidden;
+}
+
+.bg-overlay {
+    background: linear-gradient(to right,rgba(34, 34, 34,0) 0,rgba(34, 34, 34,0) 15%,#6a6aca 50%,#6a6aca 100%,#6a6aca 100%)
+}
+
+h1 {
+    color: white;
+    line-height: 1.5;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.floating-logo {
+    max-width: 320px;
+    width: 100%;
+    position: absolute;
+    bottom: -25%;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 40px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.hero {
+    position: relative;
+    height: 900px;
+}
+
+.bg-center {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-logo {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    border-radius: 20px;
+}
+
+.full.absolute {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.relative {
+    position: relative;
+}
+.text-center {
+    text-align: center;
+}
+
+.z-index-1 {
+    z-index: 1;
 }
 
 .split-section {
@@ -38,7 +124,6 @@
 .faq-section {
     max-width: 800px;
     margin: 20px auto;
-    padding: 150px 20px 0;
 }
 
 .faq {
@@ -77,6 +162,13 @@
     height: 400px 
 }
 
+@media(max-width: 1920px) {
+    .hero {
+        height: 700px;
+        margin-bottom: 80px;
+    }
+}
+
 @media(max-width: 767px) {
     .split-section {
         flex-direction: column;
@@ -93,5 +185,9 @@
     .img-dimensions {
         width: 100%;
         height: auto 
+    }
+
+    .hero {
+        height: 500px;
     }
 }

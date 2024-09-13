@@ -44,7 +44,7 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <!-- <header>
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Support | Assess | Respond | Adapt | Heal</div>
@@ -52,10 +52,27 @@
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+    </header> -->
+    <!-- <div class="hero"> -->
+        <div class="hero banner flex hundred relative sm-flex-column sm-flex-wrap">
+            <div class="img-container bg-center fifty sm-hundred relative" style="background-image: url('{{site.baseurl}}/sarah-website/img/aaron-burden-bg-cropped.jpg');">
+                <div class="overlay absolute sm-block full hundred"></div>
+                <div class="absolute z-index-1 hero-title">
+                    <h1>Your Personal Guide Through Mental Wellness</h1>
+                    <div class="buttons-container">
+                        <a class="btn" href="#">Download for iOS</a>
+                        <a class="btn" href="#">Download for Android</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-container fifty sm-hundred">
+                <div class="inner height-100 justify-center flex z-index-1 relative animated fadeInRight" data-animation="fadeInRight">
+                    <div class="floating-logo">
+                        <img class="head-logo" src="{{site.baseurl}}/img/mobile-app-splash.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-overlay absolute full hundred sm-hide"></div>
+        </div>
+    <!-- </div> -->
 
