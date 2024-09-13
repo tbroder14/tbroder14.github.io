@@ -12,7 +12,7 @@
 }
 
 .bg-overlay {
-    background: linear-gradient(to right,rgba(34, 34, 34,0) 0,rgba(34, 34, 34,0) 15%,#6a6aca 50%,#6a6aca 100%,#6a6aca 100%)
+    background: linear-gradient(to right,rgba(34, 34, 34,0) 0,rgba(34, 34, 34,0) 15%,#1b99cf 50%,#1b99cf 100%,#1b99cf 100%)
 }
 
 h1 {
