@@ -73,6 +73,10 @@ h1 {
     border-radius: 20px;
 }
 
+.split-section h2 {
+    margin-bottom: 30px;
+}
+
 .full.absolute {
     left: 0;
     right: 0;
@@ -168,7 +172,7 @@ h1 {
 
 
 .content-section {
-    padding: 120px 20px;
+    padding: 120px 0px 20px 20px;
     /* background-color: #935ea6; */
 }
 
@@ -216,8 +220,12 @@ h1 {
 }
 
 section h2.section-heading {
-    max-width: 850px; 
-    margin: auto;
+    max-width: 1200px; 
+    margin: 0 auto 40px;
+}
+
+#services.section-padding {
+    padding: 80px;
 }
 
 @media(max-width: 1920px) {
